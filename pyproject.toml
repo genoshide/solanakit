@@ -30,6 +30,7 @@ dependencies = [
     "watchdog>=4.0",
     "requests>=2.31",
     "cryptography>=43.0",
+    "gw @ git+https://github.com/genoshide/gw.git",
 ]
 
 [project.optional-dependencies]
@@ -40,8 +41,8 @@ web3 = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/genoshide"
-Repository = "https://github.com/genoshide/chainutils"
+Homepage = "https://github.com/genoshide/solanakit"
+Repository = "https://github.com/genoshide/solanakit"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/solanakit"]

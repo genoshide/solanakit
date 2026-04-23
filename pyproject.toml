@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "solanakit"
-version = "1.0.1"
+version = "1.0.2"
 description = "Python toolkit for blockchain automation — async requester, Web3 helpers, multi-process runner."
 readme = "README.md"
 license = { text = "MIT" }
@@ -30,7 +30,7 @@ dependencies = [
     "watchdog>=4.0",
     "requests>=2.31",
     "cryptography>=43.0",
-    "gw @ git+https://github.com/genoshide/gw.git",
+    "gw @ git+https://github.com/genoshide/gw.git@v1.1.5",
 ]
 
 [project.optional-dependencies]
